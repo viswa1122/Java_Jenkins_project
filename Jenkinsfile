@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("checkout code") {
             steps {
-                git clone https://github.com/viswa1122/Java_Jenkins_project.git
+                git 'https://github.com/viswa1122/Java_Jenkins_project.git'
     }
 
     stages {
