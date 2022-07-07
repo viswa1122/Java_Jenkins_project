@@ -8,5 +8,6 @@ pipeline {
             steps {
                 git 'https://github.com/viswa1122/Java_Jenkins_project.git'
             }
-        }       
-    }
+        }   
+    }       
+}
